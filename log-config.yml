@@ -1,0 +1,16 @@
+# Keep MySQL diagnostics in mysql.log without flooding the server console.
+# The MySQL plugin uses samp-log-core and watches this file for changes.
+LogsRootFolder: "."
+
+Logger:
+  mysql:
+    LogLevel:
+      - Warning
+      - Error
+    PrintToConsole: false
+    Append: true
+    LogRotation:
+      Type: Size
+      Trigger: 10MB
+      BackupCount: 3
+
