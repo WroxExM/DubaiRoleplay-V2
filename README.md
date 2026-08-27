@@ -4,23 +4,10 @@
 
 ### A complete, production-oriented roleplay framework engineered for open.mp
 
-[![open.mp](https://img.shields.io/badge/RUNTIME-open.mp-00D4FF?style=for-the-badge)](https://www.open.mp/)
-[![Pawn](https://img.shields.io/badge/LANGUAGE-Pawn-F5A623?style=for-the-badge)](https://github.com/pawn-lang/compiler)
-[![MySQL](https://img.shields.io/badge/DATABASE-MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![MIT](https://img.shields.io/badge/LICENSE-MIT-8B5CF6?style=for-the-badge)](LICENSE)
-
-[![Turf Control](https://img.shields.io/badge/ADVANCED-TURF_CONTROL-FF1744?style=for-the-badge)](#about)
-[![FiveM Marking](https://img.shields.io/badge/FIVEM-INSPIRED_MARKING-00C853?style=for-the-badge)](#about)
-[![Custom Textdraws](https://img.shields.io/badge/CUSTOM-TEXTDRAWS-FF6D00?style=for-the-badge)](#about)
-
-[![Dynamic Showroom](https://img.shields.io/badge/FULLY_DYNAMIC-SHOWROOM-7C4DFF?style=for-the-badge)](#about)
-[![Grinding](https://img.shields.io/badge/PROGRESSION-GRINDING-00B0FF?style=for-the-badge)](#about)
-[![Threaded Queries](https://img.shields.io/badge/THREADED-MYSQL-00897B?style=for-the-badge)](#about)
-
-[![Hooks](https://img.shields.io/badge/ARCHITECTURE-HOOKS-5C6BC0?style=flat-square)](#about)
-[![Dialogs](https://img.shields.io/badge/INTERFACE-DIALOGS-EC407A?style=flat-square)](#about)
-[![Discord](https://img.shields.io/badge/INTEGRATION-DISCORD-5865F2?style=flat-square&logo=discord&logoColor=white)](#about)
-[![Open Source](https://img.shields.io/badge/RELEASE-OPEN_SOURCE-43A047?style=flat-square)](LICENSE)
+[![open.mp Source](https://img.shields.io/badge/SOURCE-open.mp-00D4FF?style=for-the-badge)](https://www.open.mp/)
+[![MySQL R41+](https://img.shields.io/badge/MYSQL-R41%2B-00758F?style=for-the-badge&logo=mysql&logoColor=white)](https://github.com/pBlueG/SA-MP-MySQL)
+[![WROX Development](https://img.shields.io/badge/WROX-DEVELOPMENT-8B5CF6?style=for-the-badge)](#credits)
+[![AKRP V5 Base](https://img.shields.io/badge/BASE-AKRP_V5-FF6D00?style=for-the-badge)](https://github.com/najuaircrack/AKRP-V5)
 
 </div>
 
