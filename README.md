@@ -1,113 +1,179 @@
-# Dubai Roleplay V2
+<div align="center">
 
-An open-source, feature-rich roleplay gamemode built for [open.mp](https://www.open.mp/) with Pawn and MySQL. Dubai Roleplay V2 combines a mature RP foundation with custom interfaces, territory warfare, modern navigation, dynamic vehicle showrooms, and extensive administration tools.
+# DUBAI ROLEPLAY V2
 
-![Runtime](https://img.shields.io/badge/runtime-open.mp-2563eb?style=for-the-badge)
-![Language](https://img.shields.io/badge/language-Pawn-f59e0b?style=for-the-badge)
-![Database](https://img.shields.io/badge/database-MySQL%20R41+-4479a1?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-16a34a?style=for-the-badge)
+### Built on trust. Shaped by experience. Released for everyone.
 
-> A community release: study it, run it, improve it, and contribute back while preserving the required credits and third-party notices.
+An advanced, MySQL-powered roleplay framework engineered for **open.mp**.
 
-## What is Dubai Roleplay V2?
+[![Runtime](https://img.shields.io/badge/RUNTIME-OPEN.MP-00E5FF?style=for-the-badge&logo=rocket&logoColor=white)](https://www.open.mp/)
+[![Language](https://img.shields.io/badge/LANGUAGE-PAWN-FFB000?style=for-the-badge&logoColor=white)](https://github.com/pawn-lang/compiler)
+[![Database](https://img.shields.io/badge/DATABASE-MYSQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![License](https://img.shields.io/badge/LICENSE-MIT-7C3AED?style=for-the-badge)](LICENSE)
 
-Dubai Roleplay V2 is the second major version of the Dubai Roleplay gamemode. It is a complete server foundation rather than a minimal starter script. Its interconnected systems cover character progression, factions, gangs, territory control, properties, businesses, vehicles, jobs, criminal activities, staff management, Discord logging, and a large custom user interface.
+`TURF CONTROL` · `CUSTOM TEXTDRAWS` · `FIVEM-INSPIRED MARKING` · `DYNAMIC SHOWROOMS`
 
-The project targets open.mp while retaining compatibility with the established SA-MP ecosystem and its commonly used Pawn libraries.
+</div>
 
-## What is the project based on?
+---
 
-The original foundation is **AKRP V5 by [najuaircrack](https://github.com/najuaircrack/AKRP-V5)**. Dubai Roleplay V2 expands that base through substantial rescripting, new systems, custom textdraws, mappings, performance work, and server-specific gameplay developed during live operation.
+## This is not another public roleplay edit
 
-This repository does not claim ownership of AKRP V5 or third-party libraries. Their respective authors retain credit and ownership of their work.
+Dubai Roleplay V2 is a complete open.mp roleplay environment built from years of development, experimentation, and real server experience. It brings gameplay, presentation, administration, and persistent world data together in one large Pawn codebase. The result is not a pack of random commands, but a connected framework ready to become the foundation of an ambitious roleplay community.
 
-## Why is this script unique?
+The gamemode began with **[AKRP V5](https://github.com/najuaircrack/AKRP-V5) by [najuaircrack](https://github.com/najuaircrack)** as its original base. From there, Dubai Roleplay V2 was extensively rescripted with a new identity: custom interfaces, advanced territory gameplay, dynamic server-owned systems, modern navigation, deeper administration, optimized mapping, and open.mp-focused improvements.
 
-Dubai Roleplay V2 is not a collection of disconnected commands placed on top of an old roleplay base. It is an extensively reworked, open.mp-focused gamemode in which the interface, world systems, economy, organizations, vehicles, and administration tools operate as one connected environment. Years of live-server development have shaped it into a practical foundation that can support a serious roleplay community while remaining open to further development.
+## What makes V2 different?
 
-Its identity comes from systems rarely offered together in a single public Pawn project: an advanced turf-control experience, highly customized textdraw interfaces, a FiveM-inspired world-marking system, and a fully dynamic showroom that can be managed without hard-coding every vehicle. These are supported by streamed mappings, database-driven entities, detailed staff controls, Discord integration, configurable security, and performance tooling designed for a modern open.mp deployment.
+The difference is visible from the moment a player connects. Dubai Roleplay V2 replaces the feeling of a conventional Pawn gamemode with a heavily customized experience driven by purpose-built textdraws, animated notifications, interactive dialogs, and FiveM-inspired location marking. Its presentation is backed by persistent MySQL data and a world that can be managed dynamically instead of being rebuilt for every small change.
 
-## Core features
+At the center of the experience is an advanced turf-control system created for meaningful gang conflict. Influence, captures, alliances, rewards, security rules, grace periods, locks, and territory stashes turn turf warfare into a complete gameplay loop rather than a simple checkpoint command.
 
-At its core is an advanced open.mp roleplay framework backed by MySQL. Player accounts, organizations, properties, businesses, vehicles, inventories, progression, criminal activities, and the wider economy persist as connected data rather than isolated features. The result is a world that server owners can expand and administer in-game instead of rebuilding the source for every routine change.
+The vehicle experience follows the same philosophy. Its fully dynamic showroom and dealership framework supports configurable vehicles, pricing, categories, previews, and in-game management. Alongside it are interconnected systems for factions, gangs, properties, businesses, inventories, crafting, vehicles, law enforcement, communication, staff operations, Discord logging, and anti-cheat protection.
 
-The gamemode's signature systems include competitive turf control with influence and rewards, custom animated textdraw experiences, FiveM-style location marking, dynamic vehicle showrooms, extensive faction and gang workflows, configurable anti-cheat protection, Discord activity logging, and optimized batch-loaded mapping. A broad set of staff and entity-management tools makes the project suitable both as a playable gamemode and as a development base for a deeply customized open.mp server.
+Under the surface, the project makes extensive use of Pawn callbacks, hooks, threaded MySQL queries, streamed entities, modular includes, textdraw interfaces, and dialog-driven administration. It is designed both as a playable gamemode and as a serious codebase developers can study, reshape, and take further.
 
-## Why was it released as open source?
+## A note from the developer
 
-Dubai Roleplay V2 is being released publicly because unauthorized copies of the script were leaked, shared, and offered for sale without the owner's knowledge or permission. Work that was never authorized for redistribution was being circulated and monetized by third parties, creating confusion about its ownership, authenticity, and official source.
+> **This script was created in good faith and handed to the Dubai Roleplay management and team on the strength of trust and loyalty. That trust was not respected.**
 
-Instead of allowing unofficial sellers or private leaks to define the future of the project, the owner has chosen to make the genuine source available to everyone. This official open-source release establishes a transparent origin, preserves the correct credits, prevents others from claiming exclusive access to the script, and gives the community a legitimate version that can be studied and improved under the terms of its license.
+I am one of the developers behind Dubai Roleplay V2. The script was never given to the Dubai server management or its team with permission to leak it, redistribute it, or sell it. Despite that, copies were circulated and offered for sale without my knowledge or consent. Other people attempted to profit from work they did not have permission to distribute.
 
-No previous leak, resale, or private distribution should be interpreted as permission from the owner. This repository is the intentional public release of Dubai Roleplay V2; attribution to the original base and subsequent contributors must remain intact.
+Once private copies had already been passed around, leaving the project closed would only reward those controlling and selling an unauthorized leak. I therefore made the decision to release the real source myself. If my work was going to reach the public, it would do so from the developer—not through somebody else's sale, claim, or betrayal of trust.
+
+This repository is that official release. It establishes the authentic public source, keeps the development history and credits visible, and ensures nobody can pretend that access to Dubai Roleplay V2 belongs exclusively to them.
+
+> **Loyalty gave this project a beginning. Betrayal gave it a public release. The community can decide what it becomes next.**
+
+## Signature systems
+
+| System | What it brings |
+|---|---|
+| **Turf Control** | Influence-based territory wars, captures, alliances, protection rules, rewards, locks, and gang stashes |
+| **Custom UI** | Original login, registration, phone, banking, inventory, job, fuel, showroom, settings, and notification textdraws |
+| **Marking System** | FiveM-inspired location and world marking for modern navigation and coordinated gameplay |
+| **Dynamic Showrooms** | Configurable dealerships, vehicle previews, categories, prices, stock, and in-game administration |
+| **Persistent World** | MySQL-backed players, vehicles, organizations, properties, businesses, inventories, and economy data |
+| **Server Operations** | Discord logs, configurable anti-cheat, profiling, streamed mapping, and advanced staff management |
 
 ## Requirements
 
-| Component | Recommended version |
+| Dependency | Version / note |
 |---|---|
-| open.mp server | Current stable release |
-| MySQL or MariaDB | MySQL 5.7+ / MariaDB 10+ |
+| [open.mp](https://www.open.mp/) | Current stable server release |
+| MySQL or MariaDB | MySQL 5.7+ or MariaDB 10+ |
 | BlueG MySQL plugin | R41+ |
-| Pawn compiler | Bundled in `pawno/` |
-
-The project also relies on the bundled includes and plugins listed in `config.json`, including streamer, sscanf, Pawn.CMD, Whirlpool, ColAndreas, Discord Connector, profiler, regex, and textdraw-streamer.
+| Pawn compiler | Included in `pawno/` |
+| Runtime plugins | Supplied in `plugins/` and declared in `config.json` |
 
 ## Installation
 
-1. Clone or download this repository.
-2. Create a database and import `databases/Dubai.sql`.
-3. Add local database credentials to `mysql.ini`.
-4. Configure the hostname, port, RCON settings, and Discord token in `config.json`.
-5. Compile `gamemodes/Dubai-V2.pwn` with the bundled Pawn compiler.
-6. Set `pawn.main_scripts` in `config.json` to the compiled `.amx` filename.
-7. Start open.mp and review the console for database or plugin errors.
+### 1. Prepare the server
 
-Example database setup:
+Clone or download the repository into a clean directory. Make sure the required open.mp components and legacy plugins can be loaded on your operating system.
+
+```bash
+git clone <your-repository-url> DubaiRoleplay-V2
+cd DubaiRoleplay-V2
+```
+
+### 2. Import the clean database
+
+Create a new database and import the release-ready schema from **`databases/Clean.sql`**. Do not use the original development database for a fresh public installation.
 
 ```sql
-CREATE DATABASE dubai_v2 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE dubai_v2
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_unicode_ci;
+
 USE dubai_v2;
-SOURCE databases/Dubai.sql;
+SOURCE databases/Clean.sql;
 ```
 
-> Never commit database passwords, Discord tokens, RCON passwords, or other deployment secrets.
+The same file can also be imported through phpMyAdmin, Adminer, HeidiSQL, or MySQL Workbench.
 
-## Project structure
+### 3. Configure MySQL
+
+Open `mysql.ini` and enter the credentials for the database created above.
+
+```ini
+hostname = 127.0.0.1
+username = your_database_user
+password = your_database_password
+database = dubai_v2
+auto_reconnect = true
+pool_size = 2
+server_port = 3306
+```
+
+### 4. Configure open.mp
+
+Review `config.json` before the first launch. At minimum, change the server name, network port, public address where required, RCON settings, and Discord bot token. Confirm that `pawn.main_scripts` matches the compiled gamemode filename.
+
+```json
+"pawn": {
+  "main_scripts": [
+    "Dubai-V2"
+  ]
+}
+```
+
+### 5. Compile the gamemode
+
+Extract the compiler includes if your copy contains them as `pawno/include.rar`, then compile `gamemodes/Dubai-V2.pwn` using the bundled Pawn compiler. The resulting `Dubai-V2.amx` must remain inside `gamemodes/`.
+
+### 6. Launch and verify
+
+Start `omp-server` and inspect the console. A successful boot displays the Dubai Roleplay V2 credit box, connects to MySQL, loads the database-backed systems, and continues without missing-plugin or missing-table errors.
+
+> Keep database passwords, Discord tokens, RCON passwords, and production configuration out of public commits.
+
+## Repository layout
 
 ```text
-components/             open.mp runtime components
-databases/              database schema and SQL data
-filterscripts/          optional filterscripts such as SampVoice
-gamemodes/
-  Dubai-V2.pwn          main gamemode source
-  modules/              modular gameplay and server systems
-include/                shared includes
-pawno/                  Pawn compiler and compiler includes
-plugins/                legacy plugin binaries
-scriptfiles/            runtime data and configuration files
-config.json             open.mp server configuration
-mysql.ini               local database connection configuration
+DubaiRoleplay-V2/
+├── components/             open.mp runtime components
+├── databases/
+│   └── Clean.sql           clean database for a fresh installation
+├── filterscripts/          optional side scripts, including SampVoice
+├── gamemodes/
+│   ├── Dubai-V2.pwn        main gamemode source
+│   └── modules/            marking, notifications, protection, and server modules
+├── include/                shared includes
+├── pawno/                  compiler and packaged compiler includes
+├── plugins/                required legacy plugin binaries
+├── scriptfiles/            runtime configuration and persistent script data
+├── config.json             open.mp server configuration
+└── mysql.ini               MySQL connection configuration
 ```
 
-## Credits and acknowledgements
+## Credits
 
-| Contributor | Contribution |
+| Name | Contribution |
 |---|---|
-| [najuaircrack](https://github.com/najuaircrack) | Creator of [AKRP V5](https://github.com/najuaircrack/AKRP-V5), the original base |
-| NeeLan ICNQ / NeelanX | Rescripting, main development, and textdraw work |
-| WROX / WroxExM / ZpyRx | Development, dynamic showroom, systems, and custom textdraws |
-| Razi / RaziScofield | Server and gamemode development |
+| **[najuaircrack](https://github.com/najuaircrack)** | Creator of [AKRP V5](https://github.com/najuaircrack/AKRP-V5), the original base |
+| **NeeLan ICNQ / NeelanX** | Rescripting, main development, and textdraw work |
+| **WROX / WroxExM / ZpyRx** | Development, dynamic showroom, systems, and custom textdraws |
+| **Razi / RaziScofield** | Server and gamemode development |
 
-Special thanks to the open.mp team and every author whose library or plugin is used by this project. Attribution within individual source files should be preserved. If a credit is incomplete, open a pull request with supporting information so it can be corrected.
+Respect is due to the open.mp team and the authors of every plugin, include, mapping, and library used by this project. Credits preserved inside individual source files form part of the project's history and should not be removed.
+
+## License and attribution
+
+Dubai Roleplay V2 is now intentionally released under the [MIT License](LICENSE). From this official release onward, the project may be used, modified, and redistributed under those terms. The copyright and permission notice must remain present in copies or substantial portions of the software.
+
+This public license does not retroactively legitimize copies leaked, shared, or sold before the developer authorized this release. Third-party plugins, includes, components, mappings, and assets may remain subject to their own licenses.
 
 ## Contributing
 
-Bug fixes, documentation improvements, compatibility updates, optimizations, and well-tested features are welcome. Keep pull requests focused, document database changes, avoid committing secrets or generated logs, and preserve original attribution.
+Meaningful fixes, open.mp compatibility improvements, optimizations, documentation, and carefully tested systems are welcome. Keep changes focused, document database migrations, preserve attribution, and never commit credentials or generated server logs.
 
-## License
+---
 
-Dubai Roleplay V2 is distributed under the [MIT License](LICENSE). You may use, copy, modify, publish, and distribute the project subject to that license. Bundled plugins, components, includes, mappings, and other third-party assets may have separate licenses; verify their terms before redistribution or commercial use.
+<div align="center">
 
-## Disclaimer
+### Dubai Roleplay V2 belongs in the hands of developers—not unauthorized sellers.
 
-This software is provided as-is, without warranty. Server operators are responsible for securing their configuration, reviewing the code and dependencies, complying with third-party licenses, and following the rules applicable to their community and hosting environment.
+**Learn from it. Improve it. Give credit where it is due.**
+
+</div>
