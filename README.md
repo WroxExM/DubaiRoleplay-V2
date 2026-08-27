@@ -66,11 +66,7 @@ Credits belonging to open.mp and the authors of all third-party plugins, include
 
 ## From the developer
 
-Dubai V3 is neither affiliated with nor relevant to this release. Dubai Roleplay V2 represents my development work, and this repository constitutes its official public source. The decision to publish it followed the unauthorized circulation and commercial distribution of the script by members associated with the Dubai server management and team, none of whom had received my permission to leak, redistribute, or sell the project.
-
-Official publication ensures that the authentic source, its development history, and its contributor acknowledgements remain available without dependence on unauthorized intermediaries. Any attempt to reintroduce this public code into a private server, remove its attribution, or represent the work as an independent creation will be readily contradicted by the public record established through this repository.
-
-To the Dubai management and its associated team: the source is now public, the record is permanent, and responsibility for any future project rests entirely with you. I wish you every success in producing work of your own.
+I do not care about V3, V4, V5, or whatever comes next. Dubai Roleplay V2 is now officially open source, so everyone is free to take it, use it, modify it, and build something better from it. I am happy to see my source being useful—even in your V3 version. LOL.
 
 ## License
 
