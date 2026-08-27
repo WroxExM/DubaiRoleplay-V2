@@ -9,6 +9,12 @@
 [![WROX Development](https://img.shields.io/badge/WROX-DEVELOPMENT-8B5CF6?style=for-the-badge)](#credits)
 [![AKRP V5 Base](https://img.shields.io/badge/BASE-AKRP_V5-FF6D00?style=for-the-badge)](https://github.com/najuaircrack/AKRP-V5)
 
+<br><br>
+
+<img src="assets/dubai-roleplay-v2.png" alt="Dubai Roleplay V2 in-game preview" width="100%">
+
+<sub>In-game preview from the official Dubai Roleplay V2 environment</sub>
+
 </div>
 
 ---
@@ -59,11 +65,13 @@ Credits belonging to open.mp and the authors of all third-party plugins, include
 
 ## From the developer
 
-As a developer of Dubai Roleplay V2, my responsibility is to the work documented in this repository. Any project presented as Dubai V3, V4, V5, or under another future title is outside the scope of this release and is not a concern of mine. This repository exists to preserve V2 in its authentic form and to establish a clear, permanent, and publicly accessible source for the project.
+Dubai Roleplay V2 was developed in an environment founded on trust, loyalty, and a shared commitment to the project. When those principles were no longer mutual, preserving the source as a private asset served no legitimate purpose. This release establishes the definitive public record of the work, its origin, and the people who contributed to it.
 
-Dubai Roleplay V2 is now intentionally available to everyone. Developers and server communities may study the source, deploy it, modify it, and use it as the foundation for their own work in accordance with the license. If portions of this project prove useful in a later version of Dubai Roleplay, including V3, I have no objection; seeing the work continue to provide value is preferable to allowing it to remain restricted, misrepresented, or privately circulated.
+Anyone is welcome to study, operate, modify, or extend this code under the terms of its license. What should never be confused with development, however, is the act of removing attribution and presenting another person's work as an original achievement. A changed name or version number does not rewrite authorship; the source history speaks with greater authority than any claim made after it.
 
-My position is therefore straightforward: future version numbers do not change the origin of this work, and they do not diminish what was created for V2. The official source is public, the development record is visible, and the project is now free to move forward through the community rather than through claims of exclusive ownership.
+Use this project as a foundation if it has value to you. Improve it substantially, respect where it came from, and create something you are prepared to sign your own name to. Serious developers are recognized by what they build, not by what they attempt to claim.
+
+> **The source is public. The record is permanent. The standard is simple: build work that can stand on its own.**
 
 ## License
 
