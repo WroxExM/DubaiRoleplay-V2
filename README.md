@@ -2,12 +2,21 @@
 
 # DUBAI ROLEPLAY V2
 
-### An advanced FiveM-inspired roleplay gamemode for open.mp
+### A production-oriented, FiveM-inspired roleplay framework for open.mp
 
 [![open.mp](https://img.shields.io/badge/RUNTIME-open.mp-00D4FF?style=for-the-badge)](https://www.open.mp/)
 [![Pawn](https://img.shields.io/badge/LANGUAGE-Pawn-F5A623?style=for-the-badge)](https://github.com/pawn-lang/compiler)
 [![MySQL](https://img.shields.io/badge/DATABASE-MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![MIT](https://img.shields.io/badge/LICENSE-MIT-8B5CF6?style=for-the-badge)](LICENSE)
+
+[![Turf Control](https://img.shields.io/badge/TURF-CONTROL-FF1744?style=flat-square)](#about)
+[![FiveM Marking](https://img.shields.io/badge/FIVEM-MARKING-00C853?style=flat-square)](#about)
+[![Custom Textdraws](https://img.shields.io/badge/CUSTOM-TEXTDRAWS-FF6D00?style=flat-square)](#about)
+[![Dynamic Showroom](https://img.shields.io/badge/DYNAMIC-SHOWROOM-7C4DFF?style=flat-square)](#about)
+[![Grinding](https://img.shields.io/badge/ROLEPLAY-GRINDING-00B0FF?style=flat-square)](#about)
+[![Threaded Queries](https://img.shields.io/badge/MYSQL-THREADED-00897B?style=flat-square)](#about)
+[![Dialogs](https://img.shields.io/badge/UI-DIALOGS-EC407A?style=flat-square)](#about)
+[![open source](https://img.shields.io/badge/SOURCE-PUBLIC-43A047?style=flat-square)](LICENSE)
 
 </div>
 
@@ -15,9 +24,13 @@
 
 ## About
 
-**Dubai Roleplay V2** is a MySQL-powered open.mp gamemode built around a modern, FiveM-inspired roleplay experience. It features a progression-focused grinding system, advanced turf controllability, FiveM-style world marking, customized textdraw interfaces, dynamic vehicle showrooms, persistent organizations and properties, and complete in-game server management.
+**Dubai Roleplay V2** is a production-oriented roleplay framework developed for open.mp, combining the accessibility of the Pawn ecosystem with the presentation and gameplay direction commonly associated with modern FiveM communities. Its architecture is supported by persistent MySQL storage and a progression-led gameplay model in which accounts, organizations, territories, vehicles, properties, businesses, inventories, and the wider economy operate as parts of a unified environment.
 
-Originally based on **[AKRP V5](https://github.com/najuaircrack/AKRP-V5) by [najuaircrack](https://github.com/najuaircrack)**, the project was extensively rescripted and developed into Dubai Roleplay V2 with its own systems, interfaces, gameplay direction, and open.mp-focused architecture.
+The project places particular emphasis on interface quality and operational flexibility. Purpose-built textdraws, animated notifications, structured dialogs, and a FiveM-inspired world-marking system provide a consistent player experience across its principal workflows. Its territory framework introduces advanced turf controllability through influence, competitive capture states, alliances, configurable safeguards, rewards, locking controls, and persistent gang storage. Vehicle commerce is delivered through a fully dynamic showroom system supporting managed inventories, categorized selections, configurable pricing, visual previews, and in-game dealership administration.
+
+Beyond its player-facing systems, Dubai Roleplay V2 incorporates a modular technical foundation built around hooks, callback-driven services, threaded database queries, streamed world entities, Discord connectivity, configurable security controls, and comprehensive administrative tooling. The repository is therefore suitable both as a deployable roleplay gamemode and as an extensible engineering base for communities seeking to establish a distinct server identity without developing an entire platform from first principles.
+
+The project originated from **[AKRP V5](https://github.com/najuaircrack/AKRP-V5), created by [najuaircrack](https://github.com/najuaircrack)**. That foundation was subsequently subjected to extensive rescripting and system development, resulting in Dubai Roleplay V2 as a separate technical and creative direction with original interfaces, gameplay systems, operational tooling, and an open.mp-oriented architecture.
 
 ## Installation
 
@@ -53,11 +66,11 @@ Credits belonging to open.mp and the authors of all third-party plugins, include
 
 ## From the developer
 
-I do not care about Dubai V3. Dubai Roleplay V2 is my project and this repository is its official public source. It was made public only after members of the Dubai server management and team circulated and sold the script without my permission.
+Dubai V3 is neither affiliated with nor relevant to this release. Dubai Roleplay V2 represents my development work, and this repository constitutes its official public source. The decision to publish it followed the unauthorized circulation and commercial distribution of the script by members associated with the Dubai server management and team, none of whom had received my permission to leak, redistribute, or sell the project.
 
-So here it is—free and available to everyone. Do not take this public source back into your server, rename it, and pretend the work is yours. The history, code, and credits already speak for themselves.
+Official publication ensures that the authentic source, its development history, and its contributor acknowledgements remain available without dependence on unauthorized intermediaries. Any attempt to reintroduce this public code into a private server, remove its attribution, or represent the work as an independent creation will be readily contradicted by the public record established through this repository.
 
-To the Dubai management: have a good day. Do your own job this time.
+To the Dubai management and its associated team: the source is now public, the record is permanent, and responsibility for any future project rests entirely with you. I wish you every success in producing work of your own.
 
 ## License
 
@@ -67,6 +80,6 @@ Released under the [MIT License](LICENSE). This official release may be used, mo
 
 <div align="center">
 
-**Dubai Roleplay V2 — released by the developers, not the sellers.**
+**Dubai Roleplay V2 - released by the developers, not the sellers.**
 
 </div>
