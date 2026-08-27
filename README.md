@@ -65,13 +65,11 @@ Credits belonging to open.mp and the authors of all third-party plugins, include
 
 ## From the developer
 
-Dubai Roleplay V2 was developed in an environment founded on trust, loyalty, and a shared commitment to the project. When those principles were no longer mutual, preserving the source as a private asset served no legitimate purpose. This release establishes the definitive public record of the work, its origin, and the people who contributed to it.
+This repository is the official public source of Dubai Roleplay V2, released directly by its developers. You are free to take it, study it, operate it, and build your own version from it under the terms of the license. Improve the source, introduce your own ideas, and create something that carries your identity as a developer.
 
-Anyone is welcome to study, operate, modify, or extend this code under the terms of its license. What should never be confused with development, however, is the act of removing attribution and presenting another person's work as an original achievement. A changed name or version number does not rewrite authorship; the source history speaks with greater authority than any claim made after it.
+To the main server contributors: attribution is not ownership, and access to a project is not the same as creating it. If you expect recognition, earn it through original work instead of relying on another developer's source. The code is public now; what you are capable of building from this point forward is entirely your responsibility.
 
-Use this project as a foundation if it has value to you. Improve it substantially, respect where it came from, and create something you are prepared to sign your own name to. Serious developers are recognized by what they build, not by what they attempt to claim.
-
-> **The source is public. The record is permanent. The standard is simple: build work that can stand on its own.**
+> **Take the source. Build something better. Let your own work prove the rest.**
 
 ## License
 
