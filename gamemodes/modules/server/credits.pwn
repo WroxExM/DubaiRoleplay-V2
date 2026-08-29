@@ -10,7 +10,7 @@ stock PrintDubaiRoleplayCredits()
     print("+======================================================================+");
     print("| Runtime       : open.mp                                              |");
     print("| Original base : AKRP V5 by najuaircrack                              |");
-    print("| Rescripted by : NeeLan ICNQ                                          |");
+    print("| ReFixed by    : KoDdy Vx                                             |");
     print("| Main developer: NeeLan ICNQ                                          |");
     print("| Developers    : WROX (WroxExM / ZpyRx), Razi (RaziScofield)          |");
     print("| Textdraws     : WroxExM and NeelanX                                  |");

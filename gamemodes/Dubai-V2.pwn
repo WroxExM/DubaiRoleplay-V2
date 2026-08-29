@@ -13,7 +13,7 @@
 					$$    $$/ $$    $$/ $$    $$/ $$ |  $$ |/ $$   |         $$$/    $$       |
 					$$$$$$$/   $$$$$$/  $$$$$$$/  $$/   $$/ $$$$$$/           $/     $$$$$$$$/ 
 																								
-									Rescripted by : NeeLan ICNQ
+										Re Fixed by : KoDdy Vx
 								    Main Developer : NeeLan ICNQ
 								Server Developer : ZpyRx & RaziScofield
 								 	Textdrawer :  WroxExM & NeelanX
@@ -2356,55 +2356,56 @@ static const AnimLibs[][] = {
   	"WAYFARER",     "WEAPONS",      "WOP",          "WUZI"
 };
 
-PreloadAnimLibs(playerid)
-{
-  	for(new i = 0; i < sizeof(AnimLibs); i++)
-  	{
-        ApplyAnimation(playerid, AnimLibs[i], "null", 4.0, 0, 0, 0, 0, 0, 1);
-  	}
-  	return 1;
-}
+static const PreloadAnimNames[][] = {
+    "DANCING", "HEIST9", "BOMBER", "RAPPING", "SHOP", "BEACH", "SMOKING", "FOOD",
+    "ON_LOOKERS", "DEALER", "CRACK", "CARRY", "COP_AMBIENT", "PARK", "INT_HOUSE", "FOOD",
+    "ped", "MISC", "POLICE", "GRAVEYARD", "WUZI", "SUNBATHE", "PLAYIDLES", "CAMERA",
+    "RIOT", "DAM_JUMP", "JST_BUISNESS", "KISSING", "GANGS", "GHANDS", "BLOWJOBZ", "SWEET"
+};
 
+static gPreloadPlayer = INVALID_PLAYER_ID;
+static gPreloadIndex;
+
+forward PreloadAnimLibsChunk();
+public PreloadAnimLibsChunk()
+{
+    if(!IsPlayerConnected(gPreloadPlayer)) return 1;
+
+    new processed;
+    while(gPreloadIndex < sizeof(AnimLibs) + sizeof(PreloadAnimNames) && processed < 10)
+    {
+        if(gPreloadIndex < sizeof(PreloadAnimNames))
+        {
+            ApplyAnimation(gPreloadPlayer, PreloadAnimNames[gPreloadIndex], "null", 0.0, 0, 0, 0, 0, 0);
+        }
+        else
+        {
+            ApplyAnimation(gPreloadPlayer, AnimLibs[gPreloadIndex - sizeof(PreloadAnimNames)], "null", 4.0, 0, 0, 0, 0, 0, 1);
+        }
+        gPreloadIndex++;
+        processed++;
+    }
+
+    if(gPreloadIndex < sizeof(AnimLibs) + sizeof(PreloadAnimNames))
+    {
+        SetTimer("PreloadAnimLibsChunk", 100, false);
+    }
+    else
+    {
+        PlayerInfo[gPreloadPlayer][pPreloaded] = 1;
+        gPreloadPlayer = INVALID_PLAYER_ID;
+    }
+    return 1;
+}
 
 PreloadAnims(playerid)
 {
-    PreloadAnimLib(playerid, "DANCING");
-    PreloadAnimLib(playerid, "HEIST9");
-    PreloadAnimLib(playerid, "BOMBER");
-    PreloadAnimLib(playerid, "RAPPING");
-    PreloadAnimLib(playerid, "SHOP");
-    PreloadAnimLib(playerid, "BEACH");
-    PreloadAnimLib(playerid, "SMOKING");
-    PreloadAnimLib(playerid, "FOOD");
-    PreloadAnimLib(playerid, "ON_LOOKERS");
-    PreloadAnimLib(playerid, "DEALER");
-    PreloadAnimLib(playerid, "CRACK");
-    PreloadAnimLib(playerid, "CARRY");
-    PreloadAnimLib(playerid, "COP_AMBIENT");
-    PreloadAnimLib(playerid, "PARK");
-    PreloadAnimLib(playerid, "INT_HOUSE");
-    PreloadAnimLib(playerid, "FOOD" );
-    PreloadAnimLib(playerid, "ped" );
-    PreloadAnimLib(playerid, "MISC" );
-    PreloadAnimLib(playerid, "POLICE" );
-    PreloadAnimLib(playerid, "GRAVEYARD" );
-    PreloadAnimLib(playerid, "WUZI" );
-    PreloadAnimLib(playerid, "SUNBATHE" );
-    PreloadAnimLib(playerid, "PLAYIDLES" );
-    PreloadAnimLib(playerid, "CAMERA" );
-    PreloadAnimLib(playerid, "RIOT" );
-    PreloadAnimLib(playerid, "DAM_JUMP" );
-    PreloadAnimLib(playerid, "JST_BUISNESS" );
-    PreloadAnimLib(playerid, "KISSING" );
-    PreloadAnimLib(playerid, "GANGS" );
-    PreloadAnimLib(playerid, "GHANDS" );
-    PreloadAnimLib(playerid, "BLOWJOBZ" );
-    PreloadAnimLib(playerid, "SWEET" );
-}
+    if(gPreloadPlayer == playerid) return 1;
 
-PreloadAnimLib(playerid, const animlib[])
-{
-	ApplyAnimation(playerid, animlib, "null", 0.0, 0, 0, 0, 0, 0);
+    gPreloadPlayer = playerid;
+    gPreloadIndex = 0;
+    SetTimer("PreloadAnimLibsChunk", 100, false);
+    return 1;
 }
 
 
@@ -51468,8 +51469,6 @@ public OnPlayerSpawn(playerid)
 	{
 
 		PreloadAnims(playerid);
-	    PreloadAnimLibs(playerid);
-		PlayerInfo[playerid][pPreloaded] = 1;
 	}
 
     if(PlayerInfo[playerid][pSetup])
@@ -104925,7 +104924,7 @@ CMD:reporta(playerid, params[])
 	{
 	    return SendClientMessage(playerid, COLOR_SYNTAX, "That player hasn't logged in yet.");
 	}
-	if(!(0 <= level <= 8))
+	if(!(0 <= level <= 12))
 	{
 	    return SendClientMessage(playerid, COLOR_SYNTAX, "Invalid level. Valid levels range from 0 to 8.");
 	}
